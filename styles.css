@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+
 body {
   margin: 0;
   padding: 0;
+  font-family: "Montserrat";
 }
 
 #mainContainer {
@@ -8,17 +11,7 @@ body {
   height: 100vh;
   width: 100vw;
   grid-template-columns: 1fr 1fr;
-  background: #11998e; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #38ef7d,
-    #11998e
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #38ef7d,
-    #11998e
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 
 #partA {
@@ -27,7 +20,7 @@ body {
   align-items: center;
   justify-items: center;
   text-align: center;
-  color: white;
+  color: black;
   padding: 5%;
 }
 
@@ -35,7 +28,7 @@ body {
     background-color:white;
     padding: 3%;
     font-size: 24px;
-    border-color: transparent;
+
     border-radius: 10px;
     border-style: solid;
     border-width: 3px;
@@ -45,12 +38,16 @@ body {
 #partA button{
     width: 40%;
     padding: 20px;
-    background-color: aqua;
+    background-color: yellow;
+    font-weight: 700;
+    font-size: 18px;
     border-color: transparent;
     border-radius: 10px;
     cursor: pointer;
     
 }
+
+
 
 #partB {
 
